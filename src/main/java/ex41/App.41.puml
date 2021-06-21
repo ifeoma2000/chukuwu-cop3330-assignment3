@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class App {
+-names : ArrayList<String>
+  -fileName : String
+
+  +readFile(String) : void
+  +writeFile() : void
+  +alphabetize(String) : ArrayList<String>
+}
+
+
+
+@enduml

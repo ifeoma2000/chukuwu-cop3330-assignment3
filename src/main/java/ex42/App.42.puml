@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App {
+-data : ArrayList<String>
+  -fileName : String
+  +readFile(String) : void
+  +writeFile() : void
+  +parseData(ArrayList<String>) : void
+}
+
+
+
+
+@enduml

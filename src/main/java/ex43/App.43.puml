@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class WebsiteGenerator {
++name : String
++author : String
++js : boolean
++css : boolean
++generateHTML() : void
+}
+
+
+@enduml
